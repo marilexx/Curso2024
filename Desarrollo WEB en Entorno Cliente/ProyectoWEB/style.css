@@ -1,0 +1,90 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    color:  #2b2b2b;
+    
+}
+
+.cabeceraPrincipal{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2b2b2b;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+
+
+.logoimg{
+    width: 60%;
+}
+
+/* Detalle: Para que "aling items:center", funcione, se utiliza "display:flex" antes*/
+
+.contenedorMENU{ 
+
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.contenedorMENU a{
+    text-decoration: none;
+    color: #e4e2dd;
+}
+
+.contenedorMENU a:hover{
+    
+    color: #969592;
+}
+
+/* Estilos contedor sobre mi (texto  * imagen) */
+
+
+.contendorSobreMi{
+    
+
+    margin-top: 1%;
+    padding-left: 30%;
+    padding-right: 30%;
+
+}
+
+.sobremi{
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    
+    
+}
+
+h1{
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.infoSobremi{
+    
+    display: block;
+    align-items: center;
+    flex: 1;
+
+
+}
+
+
+
+.autoretratoAnime{
+
+    width: 300px;
+
+}
+
+
+

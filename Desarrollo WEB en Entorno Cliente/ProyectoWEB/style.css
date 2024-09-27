@@ -87,4 +87,27 @@ h1{
 }
 
 
+/* Fotos personales, después del texto de bienvenida*/
+
+.contedorDeImagenesPresentacion{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5%;
+}
+
+
+
+
+.contedorDeImagenesPresentacion img{
+    
+    width: 100px;
+    height: auto;
+    border-radius: 5%;
+    border: 10px, solid, white;
+    box-shadow: #2b2b2b;
+}
+
+
+
+
 

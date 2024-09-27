@@ -1,0 +1,102 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.caja{
+    color: aliceblue;
+    background-color: black;
+}
+
+.contenedor{
+    background-color: rgb(255, 127, 127);
+    /*  width: 90%;*/
+
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+/* Por defecto se aplica el display-block para que se imprima uno a uno, poniendose uno abajo del otro. */
+
+
+.columna1{
+   
+    background-color: aqua;
+    
+}
+
+.columna2{
+  
+    background-color: aqua;
+    display: flex;
+    /*Display:flex. Para que se imprima en linea y sea fexible el contenido*/
+    gap: 10px; /* Mejor manera de dar espacio entre contenido, hijos, para que sea responsivo del tiron */
+    
+}
+
+/*Padding esapcio interno, dentro de la caja*/
+/*Padding espacio externo, dentro de la caja*/
+/*Tener en cuenta los bordes, también*/
+
+
+
+.contenido{
+
+    padding: 20px 5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+
+}
+
+.cajaContenido{
+
+    justify-content: center;
+    margin: 3%;
+    border-radius: 2px, solid;
+    display: flex;
+    display: block;
+    align-items: center;
+    background-color: rgb(77, 77, 77);
+    padding: 1%;
+    border-radius: 5%;
+    color: aliceblue;
+
+}
+
+.contenido h3{
+
+    margin-top: 15%;
+    margin-bottom: 15%;
+
+}
+
+
+.contenido a{
+    
+    margin-top: 10%;
+    border-radius: 5px;
+    background-color: black;
+    color: aliceblue;
+    padding: 5%;
+    text-decoration: none;
+ 
+    
+}
+
+
+.centerDiv{
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

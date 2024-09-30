@@ -22,13 +22,6 @@ body{
 
 /* Detalle: Para que "aling items:center", funcione, se utiliza "display:flex" antes*/
 
-.contenedorMENU{ 
-
-    gap: 1rem;
-    display: flex;
-    align-items: center;
-
-}
 
 .contenedorMENU a{
     text-decoration: none;

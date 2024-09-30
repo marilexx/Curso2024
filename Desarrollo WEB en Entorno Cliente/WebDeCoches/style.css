@@ -1,0 +1,212 @@
+body{
+    font-family: "Open Sans Bold", sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+.cabeceraPrincipal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(227, 16, 49);
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0; 
+}
+
+
+
+.logoimg{
+    width: 30%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0; 
+}
+
+/* Detalle: Para que "aling items:center", funcione, se utiliza "display:flex" antes*/
+
+
+.contenedorMENU{
+    display: flex;
+    gap: 15px;
+}
+
+.contenedorMENU a{
+
+    text-decoration: none;
+    color: #e4e2dd;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+.contenedorMENU a:hover{
+    
+    color: rgb(227, 16, 49);
+    background-color: #ffffff;
+}
+
+
+/* Estilos para el contendedor principal */
+
+
+.contedorPrincipal{
+    
+
+    margin-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contenedorSobreLaEmpresa{
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    
+    
+}
+
+h1{
+    font-family: "Open Sans Bold", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    
+}
+
+
+.infoTexto{
+    
+    display: block;
+    align-items: center;
+    width: 50%;
+
+
+}
+
+.infoimg{
+    
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: right;
+
+}
+
+
+
+.fotoCochePrincipal{
+
+    width: 70%;
+
+}
+
+.textoSubrayadoBanner{
+    text-decoration: underline;
+}
+
+
+/*Estilos de la cabecera del primer div*/
+
+
+.cabeceraPrincipal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(227, 16, 49);
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0; 
+}
+
+
+
+.logoimg{
+    width: 30%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0; 
+}
+
+/* Detalle: Para que "aling items:center", funcione, se utiliza "display:flex" antes*/
+
+.cabeceraDos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(106, 8, 21);
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+    
+}
+
+
+
+
+.contedorcabeceraDos{
+    display: flex;
+    gap: 15px;
+    
+}
+
+.contenedorMENUcabeceraDos a{
+
+    text-decoration: none;
+    color: #e4e2dd;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+.contenedorMENU a:hover{
+    
+    color: rgb(66, 62, 63);
+    background-color: #ffffff;
+}
+
+
+.contenedorFondoDegradado{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: linear-gradient(to right, rgb(89, 6, 18), rgb(242, 1, 33));
+    color: #ffffff;
+    
+}
+
+.contedorcabeceraDos p{
+
+    margin-left: 30px;
+    color: #ffffff;
+    font-weight: bold;
+  
+}
+
+.contenedorMENUcabeceraDos a{
+
+    margin-right: 30px;
+    font-weight: bold;
+  
+}
+
+.botonRESERVAYA button{
+
+    background-color: #ffffff;
+    color: rgb(227, 16, 49);
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}

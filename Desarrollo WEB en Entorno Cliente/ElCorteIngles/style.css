@@ -27,7 +27,14 @@ body{
     width: 262px;
 }
 
+
+.ContenidoEnlancesCategoria section img:hover{
+    width: 272px;
+}
+
 h2{
     font-weight: 300;
     margin-bottom: 3%;
 }
+
+

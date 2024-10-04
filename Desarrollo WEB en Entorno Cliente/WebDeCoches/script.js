@@ -71,3 +71,25 @@ function funcionCambioTxt(){
     textoaCambiar.textContent = textocambio;
 }
 
+function validarFormulario(){
+
+const nombre = document.getElementById('nombre').value;
+const email = document.getElementById('email').value;
+const NumeroTelefono = document.getElementById('NumeroTelefono').value;
+const observaciones = document.getElementById('observaciones').value;
+
+if(nombre === ""){
+    alert("El nombre es obligatorio");
+}
+
+if(email === ""){
+    alert("El email es obligatorio");
+}
+
+if(NumeroTelefono === ""){
+    alert("El email es obligatorio");
+}
+
+
+
+}

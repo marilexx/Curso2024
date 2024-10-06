@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* Hay varias estados: */
+        /* reposo */
+
+
+        .divForm{
+            margin-bottom: 5px;
+            padding-top: 10px;
+        }
+
+        .divForm span, input{
+            font: 16px/16px Verdana;
+            padding: 0;
+        }
+
+        .divForm label{
+            display: block;
+            width: 400px;
+            border: 2px solid silver;
+            padding: 8px 10px;
+            position: relative;
+            box-sizing: border-box; 
+            border-radius: 4px;
+            transition: .25s;
+        }
+
+        .divForm label input{
+            display: block;
+            width: 100%;
+            border: none;
+            background: transparent;
+            outline: none; /*Es la linea azul que le pone el navegador por defecto cuando clickeamos*/
+        }
+
+        .divForm label span{
+            color: silver;
+            position: absolute;
+            top: 8px;
+            left: 10px;
+            transition: .25s;
+            
+        }
+
+        /* focus */
+
+        .divForm label.focus{
+            border-color: brown;
+        }
+
+        .divForm label span.focus{
+            color: brown;
+        }
+
+        /* top */
+
+        .divForm label span.top{
+            left: 10px;
+            top: -10px;
+            font-size: 12px;
+            background-color: white;
+            padding: 00 5px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="divForm">
+
+            
+        <!-- Los label, son los que tienen a tener principlamente el borde -->
+
+            <label for="">
+                <span>usuario</span>
+                <input type="text" autocomplete="off" name="usuario">
+            </label>
+        </div>
+        <div class="divForm">
+            <label for="" class="label">
+                <span>clave</span>
+                <input type="password" autocomplete="off" name="clave">
+            </label>
+        </div>
+    </form>
+
+
+    <script>
+        
+        const inputs = document.querySelectorAll('input');
+        inputs.forEach( input => {
+
+            input.onfocus = ( ) =>{
+
+               input.previousElementSibling.classList.add('top');
+               input.previousElementSibling.classList.add('focus');
+               input.parentNode.classList.add('focus');
+
+            }
+
+            input.onblur = ( ) =>{
+
+                input.previousElementSibling.classList.remove('top');
+                input.previousElementSibling.classList.remove('focus');
+                input.parentNode.classList.remove('focus');
+
+
+            }
+
+        });
+    </script>
+</body>
+</html>

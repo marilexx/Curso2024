@@ -68,6 +68,7 @@ let textocambio = "HOLA";
 
 
 function funcionCambioTxt(){
+    
     textoaCambiar.textContent = textocambio;
 }
 

@@ -1,0 +1,98 @@
+body{
+    background-image: url('assets/vecteezy_vector-retro-futuristic-background_.jpg');
+    font-family: "Quicksand", sans-serif;
+    background-size: cover; /* Escala la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen en la pantalla */
+    background-repeat: no-repeat; /* Evita que se repita la imagen */
+    background-attachment: fixed;
+    
+}
+
+
+h1{
+    color:rgb(25, 8, 62);
+    text-align: center;
+    font-size: 40px;
+}
+
+.contenedorCentrar{
+
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh;
+}
+
+.contenedorPregunta{
+    
+    display: block;
+    width: 600px; /* Ancho fijo */
+    height: 800px; /* Alto fijo */
+    padding: 30px;
+    border-radius: 15px;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pregunta{
+   
+    margin-top: 70px;
+    color:rgb(168, 50, 111);
+    font-weight: bold;
+   
+}
+
+.contenedorOpciones{
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+
+.bi p{
+    font-family: "Quicksand", sans-serif !important;
+    font-size: 15px;
+}
+
+
+.contenedorOpciones{
+    background-color: rgb(25, 8, 62);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 0 30px;
+}
+
+.contenedorOpciones:hover{
+    background-color: rgb(10, 3, 26);
+}
+
+.b{
+
+    background-color: rgb(87, 27, 83);
+
+}
+
+.b:hover{
+    background-color: rgb(44, 5, 42);
+}
+
+.c{
+
+    background-color: rgb(193, 57, 121);
+}
+
+.c:hover{
+    background-color:  rgb(71, 15, 41);
+}
+
+img{
+    width: 80px;
+}

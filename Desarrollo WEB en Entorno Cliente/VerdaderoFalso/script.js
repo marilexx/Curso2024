@@ -147,7 +147,7 @@ resultado+=2;
 
 //CUARTA PREGUNTA PREGUNTA:
 
-respuesta3A.addEventListener('click', function() {
+respuesta4A.addEventListener('click', function() {
 
     contenedorcuatro.classList.add('ocultar');
     contenedorcinco.classList.remove('ocultar');
@@ -157,7 +157,7 @@ respuesta3A.addEventListener('click', function() {
     
     });
     
-    respuesta3B.addEventListener('click', function() {
+respuesta4B.addEventListener('click', function() {
     
     contenedorcuatro.classList.add('ocultar');
     contenedorcinco.classList.remove('ocultar');
@@ -167,7 +167,7 @@ respuesta3A.addEventListener('click', function() {
     
     });
     
-    respuesta3C.addEventListener('click', function() {
+respuesta4C.addEventListener('click', function() {
     
     contenedorcuatro.classList.add('ocultar');
     contenedorcinco.classList.remove('ocultar');

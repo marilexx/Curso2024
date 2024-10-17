@@ -12,6 +12,7 @@ body{
 h1{
     color:rgb(25, 8, 62);
     text-align: center;
+    padding-top: 30px;
     font-size: 40px;
 }
 
@@ -95,4 +96,20 @@ button{
 
 img{
     width: 80px;
+}
+
+.progreso{
+   font-size: 15px;
+   margin-top: 60px;
+   color: rgb(88, 88, 88);
+   font-weight: 600;
+
+}
+.ocultar {
+    display: none;
+}
+
+.mayuscula{
+    text-transform: uppercase;
+    font-weight: bold;
 }

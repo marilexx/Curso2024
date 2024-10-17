@@ -1,0 +1,17 @@
+
+//Creacion de la base de datos
+
+
+CREATE DATABASE valoraciones;
+
+
+USE valoraciones;
+
+
+CREATE TABLE valoraciones (
+    id INT AUTO_INCREMENT PRIMARY KEY,    
+    current_day DATE NOT NULL,             
+    valoracion INT                         
+);
+
+//El usuario es nina contrase;a 12345 que es lo mismo que el root

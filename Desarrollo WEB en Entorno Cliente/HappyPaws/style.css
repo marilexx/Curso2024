@@ -42,18 +42,24 @@ body, html{
     background-color: var(--primary-color);
     height: 63px;
     padding-top: 0;
+    padding-left: 400px;
+    padding-right: 400px
     
 }
 
-header{
-    margin: 0 !important;
-    padding: 0;
+.headerDosPrimeraParte{
+    display: flex;
+    justify-content: space-between;
 }
+
+
+
 
 .contenidoBanner{
     display: flex;
     margin: 0 auto;
 }
+
 
 .bi{
     margin: 0 !important;
@@ -90,8 +96,8 @@ i p{
     justify-content: space-between;
     height: 63px;
     padding-top: 0;
-    padding-left: 460px;
-    padding-right: 460px;
+    padding-left: 400px;
+    padding-right: 400px;
 
 }
 
@@ -127,6 +133,8 @@ i p{
 .logo{
     display: flex;
     align-items: center;
+    text-align: left;
+    
 }
 
 .imagen_logo{
@@ -159,6 +167,43 @@ i p{
     color: var(--secondary-color);
 }
 
+.slider-frame {
+	width: 1280px;
+    height: auto;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
 
 
 
